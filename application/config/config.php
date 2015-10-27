@@ -27,7 +27,7 @@ return array(
 	'components' => array(
 		'db' => array(
 			'username' => 'LimeUser',
-			'connectionString' => 'sqlsrv:Server=h6vxviwcxa.database.windows.net,1433;Database=LimeSurvey',
+			'connectionString' => 'Data Source=tcp:h6vxviwcxa.database.windows.net,1433;Initial Catalog=LimeSurvey;User ID=LimeUser@h6vxviwcxa;Password=abc123..',
 			'password' => 'abc123..',
 			'charset' => 'utf8',
 			'tablePrefix' => 'lime_',
