@@ -10,7 +10,7 @@
  * as this file.
  *
  */
-	$system_path = @{ var dataFileName = Environment.GetEnvironmentVariable("HOME").ToString() + "\\site\\wwwroot\\data.txt"; };
+	$system_path = "framework"
 
 /*
  *---------------------------------------------------------------
